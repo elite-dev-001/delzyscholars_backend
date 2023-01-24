@@ -29,6 +29,14 @@ const MaterialSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    level: {
+        type: String,
+        required: false
+    },
+    semester: {
+        type: String,
+        required: false
+    },
     students:{
         type: Array,
         required: false

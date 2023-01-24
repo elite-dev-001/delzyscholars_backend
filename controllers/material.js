@@ -10,6 +10,8 @@ const createMaterial = (req, res) => {
         courseAmount: req.body.courseAmount,
         courseImg: req.body.courseImg,
         author: req.body.author,
+        level: req.body.level,
+        semester: req.body.semester,
         students: [],
         content: req.body.content,
     })
